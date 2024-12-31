@@ -1,0 +1,216 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "otherworldium"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "kubejs:compressed_otherworldium"
+	id: "75DF97189B63C512"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependency_requirement: "one_completed"
+			id: "56502891C16B1BC1"
+			tasks: [{
+				consume_items: false
+				id: "22CB91A3E8CB84CE"
+				item: "create:mechanical_mixer"
+				optional_task: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"098DC12502ABD00E"
+				"56502891C16B1BC1"
+				"2D14349326CF2DF5"
+			]
+			hide_until_deps_complete: true
+			id: "39C3DB035BABF8FB"
+			tasks: [{
+				consume_items: false
+				id: "3CABDE8B06272C14"
+				item: "kubejs:otherworldium_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39C3DB035BABF8FB"]
+			id: "18A8554B13061B44"
+			tasks: [{
+				id: "51026387F825D2B4"
+				item: "kubejs:compressed_otherworldium"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4488964FDCE3B628"
+				"2161B0D4CC713492"
+			]
+			id: "2D14349326CF2DF5"
+			tasks: [{
+				consume_items: false
+				id: "61F12F543546B8D3"
+				item: "mekanism:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "098DC12502ABD00E"
+			tasks: [
+				{
+					id: "1A2E3DEA21F3F589"
+					title: "Start"
+					type: "checkmark"
+				}
+				{
+					consume_items: false
+					id: "2AA3343C0C2FE6FE"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "4488964FDCE3B628"
+			tasks: [{
+				id: "18CC8478B0B3AFEF"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "2161B0D4CC713492"
+			tasks: [{
+				id: "252A9F7FD779CF87"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18A8554B13061B44"]
+			id: "4B11E6F1222F2FFC"
+			tasks: [{
+				id: "74B8F0C7FDF53580"
+				item: "energizedpower:time_controller"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"18A8554B13061B44"
+				"23456BC512A2C39A"
+			]
+			id: "3A6112BA4DC3429F"
+			tasks: [{
+				id: "028EA67580FE04B2"
+				item: "waystones:warp_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C37CD944DCE3EBF"]
+			id: "23456BC512A2C39A"
+			tasks: [{
+				id: "531EC5E2E72F7548"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "7C37CD944DCE3EBF"
+			tasks: [{
+				id: "3AA5DA76F9B9B24A"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3A6112BA4DC3429F"]
+			id: "1609B7F8D020F52A"
+			tasks: [{
+				id: "57A02CF280E6DEC3"
+				item: "waystones:warp_plate"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A6112BA4DC3429F"]
+			id: "7A4F9DD5BC736717"
+			tasks: [{
+				id: "0165A8539CEE86C3"
+				item: "energizedpower:weather_controller"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A6112BA4DC3429F"]
+			id: "5613ACB1360DFC87"
+			tasks: [{
+				id: "42563E094F1F1DC2"
+				item: "energizedpower:teleporter_matrix"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A6112BA4DC3429F"]
+			id: "14CE48514927A9F5"
+			tasks: [{
+				id: "0924F0B26191C244"
+				item: "mekanism:teleportation_core"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3A6112BA4DC3429F"]
+			id: "37B866746B977D5C"
+			tasks: [{
+				id: "6374CEE189FD1B4A"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+	]
+	title: "Otherworldium"
+}

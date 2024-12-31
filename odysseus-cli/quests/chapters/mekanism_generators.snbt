@@ -1,0 +1,389 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism_generators"
+	group: "20488B2E6777E013"
+	id: "1F0909A06A8C1CF5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6260137FB98A865D"]
+			id: "479BCE55ED858ED4"
+			tasks: [{
+				id: "071C0E7967B27451"
+				item: "mekanismgenerators:fusion_reactor_port"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2EFA0E5A51F62503"]
+			id: "6260137FB98A865D"
+			tasks: [{
+				id: "4A7717725F75CC1D"
+				item: "mekanismgenerators:fusion_reactor_frame"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6260137FB98A865D"]
+			id: "1A833E3567441146"
+			tasks: [{
+				id: "7B86B228067ABC9A"
+				item: "mekanismgenerators:fusion_reactor_logic_adapter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6260137FB98A865D"]
+			id: "6B411252FE562A0B"
+			tasks: [{
+				id: "54C11BC245BCBBE8"
+				item: "mekanismgenerators:fusion_reactor_controller"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58B45DE751B69C16"]
+			id: "2EFA0E5A51F62503"
+			tasks: [{
+				id: "20356C1CAE788AAD"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4C03533E793B3783"
+				"43CE7D253A6ACDF4"
+				"639CF799DC2D1041"
+				"784AC8F2E81E4B8F"
+			]
+			id: "58B45DE751B69C16"
+			tasks: [{
+				id: "7B40DEAB64159C68"
+				item: "mekanism:radioactive_waste_barrel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "4C03533E793B3783"
+			tasks: [{
+				id: "7D234CF29F621505"
+				item: "mekanismgenerators:fission_reactor_casing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4C03533E793B3783"]
+			id: "43CE7D253A6ACDF4"
+			tasks: [{
+				id: "41F0FEEFED613378"
+				item: "mekanismgenerators:fission_reactor_port"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4C03533E793B3783"]
+			id: "53CD2D0A87DDB756"
+			tasks: [{
+				id: "03920CB5BE768507"
+				item: "mekanismgenerators:fission_reactor_logic_adapter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "784AC8F2E81E4B8F"
+			tasks: [{
+				id: "7513B2B4A2EA670D"
+				item: "mekanismgenerators:fission_fuel_assembly"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			id: "639CF799DC2D1041"
+			tasks: [{
+				id: "63DB6DBCF26880FD"
+				item: "mekanismgenerators:control_rod_assembly"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "0820B85AA039E718"
+			tasks: [{
+				id: "40AB62A079A8977F"
+				item: "mekanismgenerators:reactor_glass"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "3026642E662703C7"
+			tasks: [{
+				id: "3CD9400C2252A76A"
+				item: "mekanismgenerators:solar_panel"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3026642E662703C7"]
+			id: "7CF512B0886FA548"
+			tasks: [{
+				id: "3B46FADC178DD46B"
+				item: {
+					Count: 1
+					id: "mekanismgenerators:solar_generator"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "96000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7CF512B0886FA548"]
+			id: "586DA614BE6F54B7"
+			tasks: [{
+				id: "5D399C370DC5420E"
+				item: {
+					Count: 1
+					id: "mekanismgenerators:advanced_solar_generator"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "200000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			id: "616FD620E7A18D4D"
+			tasks: [{
+				id: "370221B32484C92B"
+				item: {
+					Count: 1
+					id: "mekanismgenerators:wind_generator"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "200000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			id: "190556FD1D6AB940"
+			tasks: [{
+				id: "169CDE6AD1E3A7D5"
+				item: {
+					Count: 1
+					id: "mekanismgenerators:bio_generator"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "160000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			id: "64EFA7516F8C22FC"
+			tasks: [{
+				id: "057ADAEA94A88BEE"
+				item: {
+					Count: 1
+					id: "mekanismgenerators:gas_burning_generator"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "200000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			id: "55DDDA752EC700C1"
+			tasks: [{
+				id: "4F265FEC389B15E2"
+				item: {
+					Count: 1
+					id: "mekanismgenerators:heat_generator"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "160000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			id: "2624BB521DAFA179"
+			tasks: [{
+				id: "4BC74A7955EBE9D1"
+				item: "mekanismgenerators:turbine_casing"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2624BB521DAFA179"]
+			id: "20A7E0999A2D8EBD"
+			tasks: [{
+				id: "6D3ED0E11B6DED38"
+				item: "mekanismgenerators:turbine_valve"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2624BB521DAFA179"]
+			id: "22B677DC03DA8B62"
+			tasks: [{
+				id: "57EDB5F8E3A12CCD"
+				item: "mekanismgenerators:turbine_vent"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			id: "6D995AFB7642AA6D"
+			tasks: [{
+				id: "2706BB439C9552E8"
+				item: "mekanismgenerators:saturating_condenser"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			id: "5FBD693B34B55D5B"
+			tasks: [{
+				id: "00DE6DE439548D8A"
+				item: "mekanismgenerators:electromagnetic_coil"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			id: "77FEF0D371FC15B1"
+			tasks: [{
+				id: "6789E70B0475CB19"
+				item: "mekanismgenerators:rotational_complex"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			id: "1B666B69388EAA3D"
+			tasks: [{
+				id: "73C857172CAD8C94"
+				item: "mekanismgenerators:turbine_rotor"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			id: "609F73777A65114A"
+			tasks: [{
+				id: "53B4AF925C9CE1F7"
+				item: "mekanismgenerators:turbine_blade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			id: "591E0AB3F35487B0"
+			tasks: [{
+				id: "5DD12C7270FF3B79"
+				item: {
+					Count: 1
+					id: "mekanismgenerators:hohlraum"
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									amount: 10L
+									gasName: "mekanismgenerators:fusion_fuel"
+								}
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+	]
+	title: "Mekanism Generators"
+}
